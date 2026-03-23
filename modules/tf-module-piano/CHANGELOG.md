@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project uses semantic versioning.
 
----
+
 
 ## [v3.3.0] - 2026-03-23
 🔗 https://github.com/Heshercat/tf-submodules-base/tree/v3.3.0/modules/tf-module-piano
@@ -13,7 +13,6 @@ The format is based on Keep a Changelog, and this project uses semantic versioni
 - Resolved an issue affecting the simulated piano play workflow in `null_resource`.
 - Improved module stability and output consistency.
 
----
 
 ## [v3.3.0-beta-tests] - 2026-03-23
 🔗 https://github.com/Heshercat/tf-submodules-base/tree/v3.3.0-beta-tests/modules/tf-module-piano
@@ -21,7 +20,7 @@ The format is based on Keep a Changelog, and this project uses semantic versioni
 ### Added
 - Beta test release for validating `v3.3.0` changes.
 
----
+
 
 ## [v3.2.0-beta-tests] - 2026-03-23
 🔗 https://github.com/Heshercat/tf-submodules-base/tree/v3.2.0-beta-tests/modules/tf-module-piano
