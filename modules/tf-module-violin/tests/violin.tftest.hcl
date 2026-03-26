@@ -9,6 +9,7 @@ run "default_name" {
   assert {
     condition     = output.instrument_name == "violin"
     error_message = "Expected instrument_name output to equal default value 'violin'" 
+}
 
   // And it should not be empty
   assert {
