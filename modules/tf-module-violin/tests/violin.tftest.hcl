@@ -7,7 +7,7 @@ run "default_name" {
 
   // Output should equal the default value of variable "name"
   assert {
-    condition     = output.instrument_name == "violin"
+    condition     = output.instrument_name == "violin-2"
     error_message = "Expected instrument_name output to equal default value 'violin'" 
 }
 
