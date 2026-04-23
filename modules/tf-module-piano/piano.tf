@@ -1,7 +1,7 @@
 # tf-module-piano/main.tf
 variable "name" {
   type    = string
-  default = "piano-2"
+  default = "piano-21"
 }
 
 resource "null_resource" "instrument" {
