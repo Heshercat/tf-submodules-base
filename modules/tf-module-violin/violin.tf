@@ -1,7 +1,7 @@
 # tf-module-violin/main.tf
 variable "name" {
   type    = string
-  default = "violin-2"
+  default = "violin-22"
 }
 
 resource "null_resource" "instrument" {
