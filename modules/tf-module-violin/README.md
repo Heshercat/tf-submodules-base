@@ -1,2 +1,3 @@
+# tf-module-violin
 
-<!-- SCALRCORE-37205: touch the module path so the PR diff matches it -->
+Temporary branch for SCALRCORE-37205 PR trigger verification.
