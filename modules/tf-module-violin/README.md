@@ -1,15 +1,2 @@
-# tf-module-violin
 
-## Overview
-This Terraform module initializes a `null_resource` to simulate playing the violin.
-
-## Usage
-```hcl
-module "violin" {
-  source = "./tf-module-violin"
-}
-
-output "instrument_name" {
-  value = module.violin.instrument_name
-}
-
+<!-- SCALRCORE-37205: touch the module path so the PR diff matches it -->
