@@ -1,10 +1,9 @@
 # tf-module-violin/main.tf
 
-# Added on the SCALRCORE-37205 branch so that `tofu-version = auto` has a constraint to
-# resolve against. "~> 1.5" allows >= 1.5, < 2.0, so auto picks the highest supported
-# OpenTofu version rather than falling back to the default.
+# No supported OpenTofu version satisfies this constraint on the testenv, so `auto` has to
+# fall back. Used to see what the fallback does and what the UI shows for it.
 terraform {
-  required_version = "~> 1.5"
+  required_version = "~> 1.4.0"
 }
 
 variable "name" {
